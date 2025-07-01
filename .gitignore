@@ -1,0 +1,35 @@
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Build folders
+/build/
+/target/
+/out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env or secret files
+.env
