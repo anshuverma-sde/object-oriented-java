@@ -14,9 +14,19 @@ public class Main {
 
 class Human {
 
-    // properties
+    // properties/data member
     int age;
     int weight;
+
+    // default constructor
+
+    // 2 types:
+    // no-arg constructor
+    public Human(){
+        System.out.println("Inside the constructor - Creating Object.");
+    }
+    // parameterized constructor
+
 
     // behavior
     void sleep(){
