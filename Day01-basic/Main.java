@@ -23,6 +23,7 @@ class Human {
     // 2 types:
     // no-arg constructor
     public Human(){
+        age = 0;
         System.out.println("Inside the constructor - Creating Object.");
     }
     // parameterized constructor
