@@ -6,9 +6,11 @@ public class Main {
         Human anshu = new Human();
         anshu.age = 24;
         anshu.weight = 74;
-
         anshu.sleep();
         anshu.eat();
+
+        Human obj = new Human(24, 74);
+        System.out.println("Obj age is: " + obj.age);
     }
 }
 
@@ -27,6 +29,14 @@ class Human {
         System.out.println("Inside the constructor - Creating Object.");
     }
     // parameterized constructor
+    public Human(int age, int weight){
+        this.age = age;
+        this.weight = weight;
+    }
+
+    public Human(int age){
+        this.age = age;
+    }
 
 
     // behavior
